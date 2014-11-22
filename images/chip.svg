@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<rect x="12.2" y="8.9" fill="none" stroke="#A90D15" stroke-miterlimit="10" width="73.3" height="73.3"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="27.6" y1="9.1" x2="27.6" y2="36"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="12.1" y1="62.6" x2="40.7" y2="62.6"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="54.9" y1="9.4" x2="54.9" y2="42.8"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="55.1" y1="25.3" x2="71.7" y2="46.9"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="71.6" y1="46.5" x2="71.6" y2="69.4"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="71.5" y1="54.2" x2="55.1" y2="71.4"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="55.5" y1="71.4" x2="28.7" y2="71.4"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="73.9" y1="9.2" x2="73.9" y2="33"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="37.6" y1="9.4" x2="37.6" y2="54.6"/>
+<line fill="none" stroke="#A90D15" stroke-miterlimit="10" x1="37.4" y1="54.1" x2="20.8" y2="54.1"/>
+<line fill="#A90D15" x1="76.8" y1="82.2" x2="76.8" y2="27.5"/>
+<!--1-->
+<circle fill="#A90D15" cx="41.8" cy="62.6" r="1.6">
+	<animate id="1" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="0; 2.end+84s"/>
+	<animate id="2" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="1.end+84s"/>
+</circle>
+<!--2-->
+<circle fill="#A90D15" cx="27.2" cy="71.4" r="1.6">
+	<animate id="3" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="12; 4.end+72s"/>
+	<animate id="4" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="3.end+72s"/>
+</circle>
+<!--3-->
+<circle fill="#A90D15" cx="19.4" cy="54.2" r="1.6">
+	<animate id="5" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="24; 6.end+60s"/>
+	<animate id="6" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="5.end+60s"/>
+</circle>
+<!--4-->
+<circle fill="#A90D15" cx="55" cy="44.2" r="1.6">
+	<animate id="7" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="36; 8.end+48s"/>
+	<animate id="8" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="7.end+48s"/>
+</circle>
+<!--5-->
+<circle fill="#A90D15" cx="71.7" cy="70.9" r="1.6">
+	<animate id="9" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="48; 10.end+36s"/>
+	<animate id="10" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="9.end+36s"/>
+</circle>
+<!--6-->
+<circle fill="#A90D15" cx="73.9" cy="34.4" r="1.6">
+	<animate id="11" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="60; 12.end+24s"/>
+	<animate id="12" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="11.end+24s"/>
+</circle>
+<!--7-->
+<circle fill="#A90D15" cx="27.6" cy="37.4" r="1.6">
+	<animate id="13" attributeName="opacity"
+            from="1" to="0" dur="1s" 
+            repeatcount="indefinite" begin="72; 14.end+12s"/>
+	<animate id="14" attributeName="opacity"
+            from="0" to="1" dur="1s" fill="freeze"
+            repeatcount="indefinite" begin="13.end+12s "/>
+</circle>
+</svg>

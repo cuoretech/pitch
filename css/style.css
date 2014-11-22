@@ -1,13 +1,15 @@
+
 body {
     color: white;
     background-color: black;
+    font-family: "line", Georgia, Serif;
 }
 
 a{color: white;text-decoration: none;}
 a:hover{color: white;text-decoration: none;}
 
 .logo{
-	width: 350px;
+	width: 150px;
 }
 
 .titlelogo{
@@ -16,6 +18,13 @@ a:hover{color: white;text-decoration: none;}
 
 .top-buffer{
 	padding-top: 10%;
+}
+
+.svgImages{
+	background: #9B9BAB;
+  	padding: 90px 0px;
+ 	text-align: center;
+ 	color:#a90d15; 
 }
 
 
@@ -33,11 +42,109 @@ footer a:hover, footer a:active{
 	opacity: 1;
 }
 
-.sinker{
+h1{
+	font-size: 8em;
+}
+
+h2{
+	font-size: 6em;
+}
+
+h3{
+	font-size: 4em;
+}
+
+h4{
+	font-size: 2em;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.row img{
+	
+}
+
+.battery-img{
+	width: 80px;
+}
+
+.pointer-img {
+	width: 155px;
+	height: 180px;
+}
+
+.aboutIconWrapper{
+z-index: 0;
+width: 100px;
+}
+
+.svgshader{
+	opacity: .4;
+}
+
+.aboutText {
+position: relative;
+padding-left: 50px;
+z-index: 1;
+top: 55px;
+right: 40px;
+font-size: 1.5em;
+}
+
+.sinker-left{
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
+} 
+
+.sinker-right{
 	position: absolute;
 	bottom: 20px;
 	right: 40px;
-} 
+}
+
+.gear {
+    -webkit-animation: rotation 4s infinite linear;
+	-moz-animation: rotation 4s infinite linear;
+	-o-animation: rotation 4s infinite linear;
+	animation: rotation 4s infinite linear;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+@-moz-keyframes rotation {
+    from {-moz-transform: rotate(0deg);}
+    to   {-moz-transform: rotate(359deg);}
+}
+@-o-keyframes rotation {
+    from {-o-transform: rotate(0deg);}
+    to   {-o-transform: rotate(359deg);}
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to   {transform: rotate(359deg);}
+}
+
+
+/*SVGS
+============================================================================= */
+* { box-sizing: border-box; }
+
+.cont {
+  height: 100vh;
+  padding: 20vmin;
+  -webkit-filter: contrast(10);
+  background-color: white;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
 
 /* ANIMATIONS
 ============================================================================= */

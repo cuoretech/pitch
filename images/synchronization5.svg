@@ -1,0 +1,7 @@
+<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="319.046px" height="168.518px" viewBox="0 0 319.046 168.518" xml:space="preserve">
+
+<path fill="#a90d15" class="gear" d="M50,16.7V4.2L33.3,20.8L50,37.5V25c13.8,0,25,11.2,25,25c0,4.2-1.2,8.3-2.9,11.7l6.2,6.2
+		c2.9-5.4,5-11.2,5-17.9C83.3,31.7,68.3,16.7,50,16.7z M50,75c-13.8,0-25-11.2-25-25c0-4.2,1.2-8.3,2.9-11.7l-6.2-6.2
+		c-2.9,5.4-5,11.2-5,17.9c0,18.3,15,33.3,33.3,33.3v12.5l16.7-16.7L50,62.5V75z"/>
+</svg>
