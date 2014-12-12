@@ -31,6 +31,31 @@
 			controller: 'magicController'
 		})
 
+		.when('/devices', {
+			templateUrl: 'views/devices.html',
+			controller: 'devicesController'
+		})
+
+		.when('/platform', {
+			templateUrl: 'views/platform.html',
+			controller: 'platformController'
+		})
+
+		.when('/system', {
+			templateUrl: 'views/system.html',
+			controller: 'systemController'
+		})
+
+		.when('/alan', {
+			templateUrl: 'views/alan.html',
+			controller: 'alanController'
+		})
+
+		.when('/appmodel', {
+			templateUrl: 'views/appmodel.html',
+			controller: 'appmodelController'
+		})
+
 		.when('/market', {
 			templateUrl: 'views/market.html',
 			controller: 'marketController'
@@ -39,6 +64,16 @@
 		.when('/competition', {
 			templateUrl: 'views/competition.html',
 			controller: 'competitionController'
+		})
+
+		.when('/competitionCEP', {
+			templateUrl: 'views/competitionCEP.html',
+			controller: 'competitionCEPController'
+		})
+
+		.when('/competitionUnaTone', {
+			templateUrl: 'views/competitionUnaTone.html',
+			controller: 'competitionUnaToneController'
 		})
 
 		.when('/management', {
@@ -95,6 +130,36 @@
 		$scope.pageClass = 'page-magic';
 	});
 
+		mainApp.controller('devicesController', function($scope) {
+		$scope.title = 'unaLine';
+		$scope.slogan = 'Our device line';
+		$scope.pageClass = 'page-devices';
+	});
+
+		mainApp.controller('platformController', function($scope) {
+		$scope.title = 'Syncform';
+		$scope.slogan = 'Coordination Efficiency Platform';
+		$scope.pageClass = 'page-platform';
+	});
+
+		mainApp.controller('systemController', function($scope) {
+		$scope.title = 'ALAN and Data';
+		$scope.slogan = 'ALAN system';
+		$scope.pageClass = 'page-system';
+	});
+
+		mainApp.controller('alanController', function($scope) {
+		$scope.title = 'alan';
+		$scope.slogan = 'alan';
+		$scope.pageClass = 'page-alan';
+	});
+
+		mainApp.controller('appmodelController', function($scope) {
+		$scope.title = 'app model';
+		$scope.slogan = 'app model';
+		$scope.pageClass = 'page-appmodel';
+	});
+
 	mainApp.controller('marketController', function($scope) {
 		$scope.title = 'Target Market!';
 		$scope.slogan = 'We have demand!';
@@ -105,6 +170,18 @@
 		$scope.title = 'Competition!';
 		$scope.slogan = 'We\'re better!';
 		$scope.pageClass = 'page-competition';
+	});
+
+	mainApp.controller('competitionCEPController', function($scope) {
+		$scope.title = 'Competition CEP';
+		$scope.slogan = 'We\'re better!';
+		$scope.pageClass = 'page-competitionCEP';
+	});
+
+	mainApp.controller('competitionUnaToneController', function($scope) {
+		$scope.title = 'Competition UnaTone';
+		$scope.slogan = 'We\'re better!';
+		$scope.pageClass = 'page-competitionUnaTone';
 	});
 
 	mainApp.controller('managementController', function($scope) {

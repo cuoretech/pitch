@@ -47,7 +47,8 @@ h1{
 }
 
 h2{
-	font-size: 6em;
+	font-size: 5em;
+	font-weight: bold;
 }
 
 h3{
@@ -61,7 +62,20 @@ h4{
 }
 
 .row img{
-	
+	max-width: 1410px;
+	max-height: 559px;
+}
+
+.row{
+	padding-bottom: 5px;
+}
+
+#nopadding{
+	margin-top: -40px;
+}
+
+.leftpaddinglarge{
+	padding-left: 175px;
 }
 
 .battery-img{
@@ -101,6 +115,10 @@ font-size: 1.5em;
 	position: absolute;
 	bottom: 20px;
 	right: 40px;
+}
+
+.placeright img{
+	padding-left: 115px;
 }
 
 .gear {
