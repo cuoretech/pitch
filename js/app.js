@@ -96,6 +96,12 @@
 			controller: 'askController'
 		});
 
+		// .when('/strategicinit', {
+		// 	templateUrl: 'views/strategicinit.html',
+		// 	controller: 'strategicinitController'
+		// });
+
+
 	});
 
 //controllers
@@ -207,3 +213,9 @@
 		$scope.slogan = 'You gonna help us?';
 		$scope.pageClass = 'page-ask';
 	});
+
+	// mainApp.controller('strategicinitController', function($scope) {
+	// 	$scope.title = 'Strategic Initiatives';
+	// 	$scope.slogan = 'How we will spend the money';
+	// 	$scope.pageClass = 'page-strategicinit';
+	// });
